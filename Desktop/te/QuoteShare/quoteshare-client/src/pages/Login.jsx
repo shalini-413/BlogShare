@@ -31,19 +31,17 @@ export default function Login() {
         {/* Left side: Blog Quote */}
         <div className="hidden md:flex w-1/2 bg-zinc-800 items-center justify-center flex-col p-10 border-r border-zinc-700">
           <blockquote className="text-xl italic text-purple-300 text-center max-w-sm">
-            “Sharing a blog is sharing a moment of thought.”
+          “Every blog is a snapshot of a thought, shared to echo, inspire, or simply be heard.”
           </blockquote>
           <p className="mt-4 text-sm text-zinc-400">~ BlogShare</p>
         </div>
   
         {/* Right side: Login Form */}
         <div className="w-full md:w-1/2 p-8">
-          <h2 className="text-3xl font-extrabold uppercase tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-200">
+          <h2 className="text-3xl mb-6 text-center font-extrabold uppercase tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-200">
             blogshare
           </h2>
-          <p className="text-sm text-zinc-400 text-center mb-6">
-            Words that Inspire. Thoughts that Echo.
-          </p>
+
   
           <form onSubmit={handleSubmit} className="space-y-5">
             <input
@@ -64,7 +62,7 @@ export default function Login() {
               type="submit"
               className="w-full py-3 rounded-lg bg-gradient-to-r from-purple-700 to-fuchsia-700 hover:from-purple-600 hover:to-fuchsia-600 transition-colors text-white font-semibold shadow-md hover:shadow-fuchsia-800"
             >
-              🔐 Login to BlogShare
+              Login
             </button>
           </form>
   
